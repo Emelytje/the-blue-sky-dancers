@@ -1,0 +1,75 @@
+/* Algemene instellingen */
+body {
+    font-family: 'Roboto', sans-serif; /* Lettertype van Google Fonts */
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Achtergrondafbeelding */
+    background-size: cover;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Doorschijnende achtergrond */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schaduw voor de header */
+}
+
+/* Navigatie */
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Donkere doorschijnende achtergrond */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hoofdtitel */
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Schaduw voor tekst */
+}
+
+/* Secties */
+section {
+    background-color: rgba(255, 255, 255, 0.9); /* Doorschijnende achtergrond voor secties */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Knoppen */
+.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Donkerdere kleur bij hover */
+}
